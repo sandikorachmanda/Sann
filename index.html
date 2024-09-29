@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulasi PTS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SELAMAT DATANG DI SIMULASI PTS</h1>
+        <p>Silahkan pilih menu untuk memilih mapel!.</p>
+        <button id="myButton">Tampilkan Pesan</button>
+        <p id="message" class="hidden">Selamat mengerjakan, dan kerjakan dengan jujur</p>
+
+        <!-- Dropdown Menu dengan Link -->
+        <h2>Pilih Menu</h2>
+        <select id="menuSelect">
+            <option value="Ulangan PKN" data-link="https://forms.gle/6jJFbutQjxg3GNgB9">Menu 1</option>
+            <option value="Ulangan MTK" data-link="https://forms.gle/32HapgGVdKo3vaYa9">Menu 2</option>
+            <option value="menu3" data-link="https://www.example.com/menu3">Menu 3</option>
+        </select>
+        <p id="selectedMenu">Anda belum memilih menu.</p>
+        <!-- Tombol untuk Buka Link -->
+        <button id="openLinkButton" class="hidden">Buka Link</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
